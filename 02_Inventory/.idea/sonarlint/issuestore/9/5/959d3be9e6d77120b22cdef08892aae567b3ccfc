@@ -1,14 +1,7 @@
 
-4squid:S1643”"Use a StringBuilder instead.(ŠÑ‡à
-csquid:S2095Q"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦
-csquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦
-dsquid:S2095ˆ"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ı
-?squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148\"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-[squid:S2147&"DCombine this catch with the one at line 36, which has the same body.(ï­£Ä
-[squid:S2147["DCombine this catch with the one at line 89, which has the same body.(ï­£Ä
-U
-squid:S106Š"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(§¨Ö¿úÿÿÿÿ8ÀÎ¼÷ã1J$9d36d903-f994-4d0b-a912-220b8d83ee1f
+‡
+java:S2147%"DCombine this catch with the one at line 35, which has the same body.(ï­£Ä8ÂÎ¼÷ã1J$8a2a788e-894d-4954-9699-78dc95f146f9
+ƒ	java:S125J"<This block of commented-out lines of code should be removed.(§¨Ö¿úÿÿÿÿ8ÅÎ¼÷ã1J$de71bc8e-7a4b-417b-8d9b-deed227f561d
+ƒ	java:S125z"<This block of commented-out lines of code should be removed.(§¨Ö¿úÿÿÿÿ8ÊÎ¼÷ã1J$c1574ea2-1314-455c-bec2-f96cee49bd2a
+s	java:S106„"+Replace this use of System.out by a logger.(Ñ£±Ôúÿÿÿÿ8ÌÎ¼÷ã1J$ef6dbca8-fe37-46d2-be18-b452693bb439

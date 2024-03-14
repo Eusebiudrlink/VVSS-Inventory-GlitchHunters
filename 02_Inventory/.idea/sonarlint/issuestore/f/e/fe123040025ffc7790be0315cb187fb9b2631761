@@ -1,0 +1,16 @@
+
+
+java:S3655ä"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ÊóÒ÷ã1J$ed38210f-d470-45ef-b9b4-e678aad4a5e0
+
+java:S3655¡"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ÊóÒ÷ã1J$79f20a99-1538-4020-abaa-b3c8866c39bc
+~	java:S125q"<This block of commented-out lines of code should be removed.( ÆüÖ8ÔóÒ÷ã1J$38e58561-d46d-4180-89ba-343a8eeaa16b
+s	java:S106Š"+Replace this use of System.out by a logger.(ò¤áÿûÿÿÿÿ8ÛóÒ÷ã1J$5155f542-ef1b-473e-b54a-558583942232
+s	java:S106"+Replace this use of System.out by a logger.(½ğöÈıÿÿÿÿ8ÜóÒ÷ã1J$63e67c55-289d-472c-bd43-6bd5841743b8
+s	java:S106£"+Replace this use of System.out by a logger.(¤¡ñÄÿÿÿÿÿ8İóÒ÷ã1J$3c274e1f-68a0-4d87-b227-bf4c74ce5bb7
+n	java:S106¥"+Replace this use of System.out by a logger.(¢¬õ÷8İóÒ÷ã1J$ede5e0cc-7d85-4fa8-9635-3303c46cf819
+z
+java:S2696Æ"6Make the enclosing method "static" or remove this set.(„¿¬‰8ŞóÒ÷ã1J$d98be915-3dc4-4b1f-9c68-a815699f6c36
+z
+java:S2696Ó"6Make the enclosing method "static" or remove this set.(ŒÑ³ã8ßóÒ÷ã1J$8b0667cf-c889-49ce-a4eb-7a582fc8dd88
+s	java:S106å"+Replace this use of System.out by a logger.(´ä”×úÿÿÿÿ8àóÒ÷ã1J$b059c531-3743-4d51-982e-900d6750eb8b
+n	java:S106è"+Replace this use of System.out by a logger.(¤Õï«8àóÒ÷ã1J$563884ed-e03d-45e6-b742-a7c16c616504

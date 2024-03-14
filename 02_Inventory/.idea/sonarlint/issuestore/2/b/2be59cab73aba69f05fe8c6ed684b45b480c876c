@@ -1,0 +1,25 @@
+
+‰
+java:S3655¢"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞJ$581b7fe8-61b7-43d0-a1c5-d88ba51111a8
+½
+java:S1186h"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Ê—J$79233b7b-1559-493c-a47f-0b3583a1367f
+Â
+java:S1186D"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÌÎ”•ûÿÿÿÿJ$a63c77aa-040b-412b-8a74-c3b541ae0989
+—
+java:S1450 "[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(ÊÃ‘æJ$0483aa5b-98fb-462b-b1ff-c30c6c43c547
+–
+java:S1450""URemove the "partId" field and declare it as a local variable in the relevant methods.(•›™âıÿÿÿÿJ$7c718cbc-0946-43f6-9ba4-42e6e806a9f0
+
+java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡J$70baf570-21ab-4be8-82e5-1f69168a4fcc
+•
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿJ$57e7cdd5-da3b-4c1c-8bcb-9bc9a1f60d5b
+\
+java:S2129 " Remove this "String" constructor(ÊÃ‘æJ$932935eb-2174-4f4d-a889-1b858e58227e
+w	java:S125v"<This block of commented-out lines of code should be removed.( ÆüÖJ$1399a4de-0d3a-4859-b4a3-eeb274b0634f
+g	java:S106£"+Replace this use of System.out by a logger.(§ª¬J$28888bcd-7e0d-49ca-a888-5948c96221fe
+l	java:S106¦"+Replace this use of System.out by a logger.(ùÿèÁøÿÿÿÿJ$4607d87e-5a77-442e-9fb8-4a088913a278
+|
+java:S1117²":Rename "partId" which hides the field declared at line 34.(ÂçšÇúÿÿÿÿJ$48c972ce-c9a7-42e1-9981-1da7718be852
+l	java:S106Í"+Replace this use of System.out by a logger.(Ï³ÌùÿÿÿÿJ$d882e907-39d3-4be3-969f-3f720d24185c
+k
+java:S1068""*Remove this unused "partId" private field.(•›™âıÿÿÿÿJ$e7a1bcec-652c-4f78-9ce0-387dea739a6e

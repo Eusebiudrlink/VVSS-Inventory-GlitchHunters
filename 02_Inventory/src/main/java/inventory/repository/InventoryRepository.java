@@ -75,18 +75,13 @@ public class InventoryRepository {
 		File file = new File(filename);
 
 		ObservableList<Product> listP = FXCollections.observableArrayList();
-		BufferedReader br = null;
-		try {
-			br = new BufferedReader(new FileReader(file));
+		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 			String line = null;
 			while((line=br.readLine())!=null){
 				Product product=getProductFromString(line);
 				if (product!=null)
 					listP.add(product);
 			}
-			br.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -140,16 +135,16 @@ public class InventoryRepository {
 			}
 
 			for (Product pr:products) {
-				String line=pr.toString()+",";
+				StringBuilder line= new StringBuilder(pr.toString() + ",");
 				ObservableList<Part> list= pr.getAssociatedParts();
 				int index=0;
 				while(index<list.size()-1){
-					line=line+list.get(index).getPartId()+":";
+					line.append(list.get(index).getPartId()).append(":");
 					index++;
 				}
 				if (index==list.size()-1)
-					line=line+list.get(index).getPartId();
-				bw.write(line);
+					line.append(list.get(index).getPartId());
+				bw.write(line.toString());
 				bw.newLine();
 			}
 			bw.close();

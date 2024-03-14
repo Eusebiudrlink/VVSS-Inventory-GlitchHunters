@@ -193,7 +193,7 @@ public class ModifyPartController implements Initializable, Controller {
                 alert.setContentText(errorMessage);
                 alert.showAndWait();
             } else {
-                if(isOutsourced == true) {
+                if(isOutsourced) {
                     service.updateOutsourcedPart(partIndex, Integer.parseInt(partId), name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), partDynamicValue);
                 } else {
                     service.updateInhousePart(partIndex, Integer.parseInt(partId), name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), Integer.parseInt(partDynamicValue));

@@ -78,10 +78,10 @@ public class ModifyPartController implements Initializable, Controller {
         partId = service.getAllParts().get(partIndex).getPartId();
         partIdTxt.setText(Integer.toString(part.getPartId()));
         nameTxt.setText(part.getName());
-        inventoryTxt.setText(Integer.toString(part.getInStock()));
+        inventoryTxt.setText(Integer.toString(part.getStockCount()));
         priceTxt.setText(Double.toString(part.getPrice()));
-        maxTxt.setText(Integer.toString(part.getMax()));
-        minTxt.setText(Integer.toString(part.getMin()));
+        maxTxt.setText(Integer.toString(part.getMaxCapacity()));
+        minTxt.setText(Integer.toString(part.getMinCapacity()));
 
         if(part instanceof InhousePart) {
             modifyPartDynamicTxt.setText(Integer.toString(((InhousePart) service.getAllParts().get(partIndex)).getMachineId()));

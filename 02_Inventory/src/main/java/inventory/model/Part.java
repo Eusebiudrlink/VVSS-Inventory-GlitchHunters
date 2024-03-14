@@ -8,18 +8,18 @@ public abstract class Part {
     private int partId;
     private String name;
     private double price;
-    private int inStock;
-    private int min;
-    private int max;
+    private int stockCount;
+    private int minCapacity;
+    private int maxCapacity;
     
     // Constructor
-    public Part(int partId, String name, double price, int inStock, int min, int max) {
+    public Part(int partId, String name, double price, int stockCount, int minCapacity, int maxCapacity) {
         this.partId = partId;
         this.name = name;
         this.price = price;
-        this.inStock = inStock;
-        this.min = min;
-        this.max = max;
+        this.stockCount = stockCount;
+        this.minCapacity = minCapacity;
+        this.maxCapacity = maxCapacity;
     }
     
     // Getters
@@ -35,16 +35,16 @@ public abstract class Part {
         return price;
     }
 
-    public int getInStock() {
-        return inStock;
+    public int getStockCount() {
+        return stockCount;
     }
 
-    public int getMin() {
-        return min;
+    public int getMinCapacity() {
+        return minCapacity;
     }
 
-    public int getMax() {
-        return max;
+    public int getMaxCapacity() {
+        return maxCapacity;
     }
     
     // Setters
@@ -60,16 +60,16 @@ public abstract class Part {
         this.price = price;
     }
 
-    public void setInStock(int inStock) {
-        this.inStock = inStock;
+    public void setStockCount(int stockCount) {
+        this.stockCount = stockCount;
     }
 
-    public void setMin(int min) {
-        this.min = min;
+    public void setMinCapacity(int minCapacity) {
+        this.minCapacity = minCapacity;
     }
 
-    public void setMax(int max) {
-        this.max = max;
+    public void setMaxCapacity(int maxCapacity) {
+        this.maxCapacity = maxCapacity;
     }
     
     /**
@@ -106,7 +106,7 @@ public abstract class Part {
     }
     @Override
     public String toString() {
-        return this.partId+","+this.name+","+this.price+","+this.inStock+","+
-                this.min+","+this.max;
+        return this.partId+","+this.name+","+this.price+","+this.stockCount +","+
+                this.minCapacity +","+this.maxCapacity;
     }
 }

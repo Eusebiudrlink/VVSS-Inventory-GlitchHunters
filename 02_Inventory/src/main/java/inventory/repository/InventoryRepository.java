@@ -37,7 +37,7 @@ public class InventoryRepository {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		inventory.setAllParts(listP);
+		inventory.setParts(listP);
 	}
 
 	private Part getPartFromString(String line){
@@ -128,7 +128,7 @@ public class InventoryRepository {
 		File file = new File(filename);
 
 		BufferedWriter bw = null;
-		ObservableList<Part> parts=inventory.getAllParts();
+		ObservableList<Part> parts=inventory.getParts();
 		ObservableList<Product> products=inventory.getProducts();
 
 		try {
@@ -177,7 +177,7 @@ public class InventoryRepository {
 	}
 
 	public ObservableList<Part> getAllParts(){
-		return inventory.getAllParts();
+		return inventory.getParts();
 	}
 
 	public ObservableList<Product> getAllProducts(){

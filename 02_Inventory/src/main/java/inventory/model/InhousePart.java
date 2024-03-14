@@ -7,8 +7,8 @@ public class InhousePart extends Part {
     private int machineId;
 
     // Constructor
-    public InhousePart(int partId, String name, double price, int inStock, int min, int max, int machineId) {
-        super(partId, name, price, inStock, min, max);
+    public InhousePart(int partId, String name, double price, int stockCapacity, int minCapacity, int maxCapacity, int machineId) {
+        super(partId, name, price, stockCapacity, minCapacity, maxCapacity);
         this.machineId = machineId;
     }
     

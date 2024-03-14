@@ -4,13 +4,13 @@ package inventory.model;
 
 
 public class OutsourcedPart extends Part {
-    
+
     // Declare fields
     private String companyName;
 
     // Constructor
-    public OutsourcedPart(int partId, String name, double price, int inStock, int min, int max, String companyName) {
-        super(partId, name, price, inStock, min, max);
+    public OutsourcedPart(int partId, String name, double price, int stockCount, int minCapacity, int maxCapacity, String companyName) {
+        super(partId, name, price, stockCount, minCapacity, maxCapacity);
         this.companyName = companyName;
     }
     

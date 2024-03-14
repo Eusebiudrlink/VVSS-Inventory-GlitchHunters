@@ -141,7 +141,7 @@ public class Product {
         if (parts.size() < 1) {
             errorMessage += "Product must contain at least 1 part. ";
         }
-        if (sumOfParts > price) {
+        if (sumOfParts >= price) {
             errorMessage += "Product price must be greater than cost of parts. ";
         }
         return errorMessage;

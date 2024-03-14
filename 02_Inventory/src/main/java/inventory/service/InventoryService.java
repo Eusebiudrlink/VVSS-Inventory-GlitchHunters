@@ -41,18 +41,18 @@ public class InventoryService {
         return repo.lookupProduct(search);
     }
 
-    public void updateInhousePart(int partIndex, int partId, String name, double price, int inStock, int min, int max, int partDynamicValue){
-        InhousePart inhousePart = new InhousePart(partId, name, price, inStock, min, max, partDynamicValue);
+    public void updateInhousePart(int partIndex, int partId, String name, double price, int stockCapacity, int min, int max, int machineId){
+        InhousePart inhousePart = new InhousePart(partId, name, price, stockCapacity, min, max, machineId);
         repo.updatePart(partIndex, inhousePart);
     }
 
-    public void updateOutsourcedPart(int partIndex, int partId, String name, double price, int inStock, int min, int max, String partDynamicValue){
-        OutsourcedPart outsourcedPart = new OutsourcedPart(partId, name, price, inStock, min, max, partDynamicValue);
+    public void updateOutsourcedPart(int partIndex, int partId, String name, double price, int stockCapacity, int minCapacity, int maxCapacity, String companyName){
+        OutsourcedPart outsourcedPart = new OutsourcedPart(partId, name, price, stockCapacity, minCapacity, maxCapacity, companyName);
         repo.updatePart(partIndex, outsourcedPart);
     }
 
-    public void updateProduct(int productIndex, int productId, String name, double price, int inStock, int min, int max, ObservableList<Part> addParts){
-        Product product = new Product(productId, name, price, inStock, min, max, addParts);
+    public void updateProduct(int productIndex, int productId, String name, double price, int stockCapacity, int minCapacity, int maxCapacity, ObservableList<Part> productParts){
+        Product product = new Product(productId, name, price, stockCapacity, minCapacity, maxCapacity, productParts);
         repo.updateProduct(productIndex, product);
     }
 

@@ -3,6 +3,10 @@ package inventory.service;
 import inventory.model.InhousePart;
 import inventory.repository.InventoryRepository;
 import org.junit.jupiter.api.BeforeEach;
+<<<<<<< Updated upstream
+=======
+import org.junit.jupiter.api.DisplayName;
+>>>>>>> Stashed changes
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -30,11 +34,22 @@ class InventoryServiceTest {
 
     @ParameterizedTest
     @MethodSource("validInHouseParts")
+<<<<<<< Updated upstream
     void shouldAddValidInHousePart(String name, double price, int inStock, int min, int max, int partDynamicValue) {
         // ACT
         inventoryService.addInhousePart(name, price, inStock, min, max, partDynamicValue);
 
         // ASSERT
+=======
+    @DisplayName("ECP_1, BVA_3, BVA_5")
+    void shouldAddValidInHousePart(String name, double price, int inStock, int min, int max, int partDynamicValue) {
+        // ACT
+        var errorMessages = InhousePart.isValidPart(name, price, inStock, min, max, "");
+        inventoryService.addInhousePart(name, price, inStock, min, max, partDynamicValue);
+
+        // ASSERT
+        assertTrue(errorMessages.isEmpty());
+>>>>>>> Stashed changes
         assertEquals(1, inventoryRepository.getInventory().getParts().size());
         final var addedPart = (InhousePart)inventoryRepository.getInventory().getParts().get(0);
         assertEquals(name, addedPart.getName());
@@ -56,7 +71,12 @@ class InventoryServiceTest {
 
     @ParameterizedTest
     @MethodSource("invalidInHouseParts")
+<<<<<<< Updated upstream
     void shouldRecordErrorForInvalidPart(String name, double price, int inStock, int min, int max,
+=======
+    @DisplayName("BVA_1, BVA_4, ECP_2, ECP_3, ECP_4")
+    void shouldRecordErrorsForInvalidPart(String name, double price, int inStock, int min, int max,
+>>>>>>> Stashed changes
                                          List<String> errorMessages) {
         // ACT
         var validationResult = InhousePart.isValidPart(name, price, inStock, min, max, "");

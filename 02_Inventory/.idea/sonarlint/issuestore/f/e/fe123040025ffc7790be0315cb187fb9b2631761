@@ -1,8 +1,8 @@
 
 
-java:S3655ä"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ÊóÒ÷ã1J$ed38210f-d470-45ef-b9b4-e678aad4a5e0
-
 java:S3655¡"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ÊóÒ÷ã1J$79f20a99-1538-4020-abaa-b3c8866c39bc
+
+java:S3655ä"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ÊóÒ÷ã1J$ed38210f-d470-45ef-b9b4-e678aad4a5e0
 ~	java:S125q"<This block of commented-out lines of code should be removed.( ÆüÖ8ÔóÒ÷ã1J$38e58561-d46d-4180-89ba-343a8eeaa16b
 s	java:S106Š"+Replace this use of System.out by a logger.(ò¤áÿûÿÿÿÿ8ÛóÒ÷ã1J$5155f542-ef1b-473e-b54a-558583942232
 s	java:S106"+Replace this use of System.out by a logger.(½ğöÈıÿÿÿÿ8ÜóÒ÷ã1J$63e67c55-289d-472c-bd43-6bd5841743b8

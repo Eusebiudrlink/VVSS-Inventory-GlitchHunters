@@ -1,0 +1,16 @@
+
+b
+java:S3655j"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûÞ
+–
+java:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥×¹<
+q
+java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(®Ãê
+j
+java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡
+o
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ðÑœýÿÿÿÿ
+E	java:S106k"+Replace this use of System.out by a logger.(©²²éúÿÿÿÿ
+@	java:S106n"+Replace this use of System.out by a logger.(¤Õï«
+C
+java:S1125¡"'Remove the unnecessary boolean literal.(ÿÂóéüÿÿÿÿ
+A	java:S106ª"+Replace this use of System.out by a logger.(ÍŸÈŠ

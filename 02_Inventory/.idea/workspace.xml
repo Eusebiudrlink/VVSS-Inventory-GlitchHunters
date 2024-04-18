@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/model/InventoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f314193286495a02fb473e4cf32b85ed85f7dcf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f314193286495a02fb473e4cf32b85ed85f7dcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/items.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/Inventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +46,7 @@
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.InventoryServiceTest.shouldAddValidInHousePart.executor": "Run",
-    "JUnit.InventoryTest.executor": "Run",
+    "JUnit.InventoryTest.executor": "Coverage",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -71,7 +58,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/EusebiuDam/Desktop/Faculta Anul 3/Anul3Sem2/VVSS/ProiectEchipa/VVSS-Inventory-GlitchHunters/02_Inventory",
+    "last_opened_file_path": "D:/_Facultate/D8_Verificarea si validarea sistemelor soft/Laborator/VVSS-Inventory-GlitchHunters/Docs/Lab03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

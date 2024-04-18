@@ -108,18 +108,18 @@ public class Inventory {
 //        return null;
 //    }
     public Part lookupPart(String searchItem) {
-        1 Part part = null;
-        2 if (searchItem != null) {
-            3 for (Part p : parts) {
-                4 if (p.getName().contains(searchItem) || (p.getPartId() + "").equals(searchItem))
-                    5 part = p
+        Part part = null;
+        if (searchItem != null) {
+            for (Part p : parts) {
+                if (p.getName().contains(searchItem) || (p.getPartId() + "").equals(searchItem))
+                    part = p;
             }
         }
-        6 if (part != null) {
-            7 return part
+        if (part != null) {
+            return part;
         }
-        8 return null;
- 10 }
+        return null;
+    }
 
     /**
      * Update part at given index

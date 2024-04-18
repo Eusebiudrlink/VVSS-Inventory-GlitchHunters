@@ -19,3 +19,5 @@ i
 9src/test/java/inventory/service/InventoryServiceTest.java,3\4\34ac316ed4f792bc79db6eea4325c9bc6d64247e
 i
 9src/main/java/inventory/controller/AddPartController.java,6\0\60c45c8b83590f796b548300881eb5e32034406b
+`
+0src/test/java/inventory/model/InventoryTest.java,1\7\1727e72bacda923720f502e981a8b45612dcd055

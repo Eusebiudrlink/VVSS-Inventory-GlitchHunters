@@ -1,8 +1,8 @@
 
-è
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(„»à¶8æ»Ã÷Í1J$77b30209-ee9d-4d91-966e-fcdbdbff7831
 ê
 java:S2095Ç"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(˘ªù˝8ø»Ã÷Í1J$57c9a700-d792-4ad4-9f43-7dc644a16a92
+è
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(„»à¶8æ»Ã÷Í1J$77b30209-ee9d-4d91-966e-fcdbdbff7831
 É	java:S125"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8¿Œº˜„1J$451b17cc-79fa-4be9-823a-83771c7a16ef
 á
 java:S2147%"DCombine this catch with the one at line 35, which has the same body.(Ô≠£ƒ8¬Œº˜„1J$1ae27d6f-2605-408a-85e5-f7700489ceaf

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/model/ProductTestMockito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/repository/InventoryRepositoryTestMockito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceTestMockito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/_Facultate/D8_Verificarea si validarea sistemelor soft/Laborator/VVSS-Inventory-GlitchHunters/Docs/Lab03",
+    "last_opened_file_path": "C:/Users/EusebiuDam/Desktop/Faculta Anul 3/Anul3Sem2/VVSS/ProiectEchipa/VVSS-Inventory-GlitchHunters/02_Inventory",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,16 +108,18 @@
       <recent name="inventory.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InventoryTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inventory.Main" />
+  <component name="RunManager" selected="JUnit.ProductTestMockito">
+    <configuration name="InventoryRepositoryTestMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inventory.*" />
+          <option name="PATTERN" value="inventory.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="inventory.repository" />
+      <option name="MAIN_CLASS_NAME" value="inventory.repository.InventoryRepositoryTestMockito" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryServiceTest.shouldAddValidInHousePart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryServiceTestMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <extension name="coverage">
         <pattern>
@@ -141,9 +148,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="inventory.service" />
-      <option name="MAIN_CLASS_NAME" value="inventory.service.InventoryServiceTest" />
-      <option name="METHOD_NAME" value="shouldAddValidInHousePart(java.lang.String,double,int,int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="inventory.service.InventoryServiceTestMockito" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +159,7 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inventory.model.*" />
-          <option name="ENABLED" value="false" />
+          <option name="ENABLED" value="true" />
         </pattern>
         <pattern>
           <option name="PATTERN" value="inventory.model.Inventory" />
@@ -168,13 +174,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductTestMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.model" />
+      <option name="MAIN_CLASS_NAME" value="inventory.model.ProductTestMockito" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Inventory [exec:java]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
-            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -184,13 +204,9 @@
                 <option value="exec:java" />
               </list>
             </option>
-            <option name="multimoduleDir" />
             <option name="pomFileName" value="pom.xml" />
             <option name="profilesMap">
               <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -200,18 +216,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.InventoryRepositoryTestMockito" />
+      <item itemvalue="JUnit.InventoryServiceTestMockito" />
+      <item itemvalue="JUnit.ProductTestMockito" />
       <item itemvalue="JUnit.InventoryTest" />
       <item itemvalue="JUnit.InventoryServiceTest" />
-      <item itemvalue="JUnit.InventoryServiceTest.shouldAddValidInHousePart" />
       <item itemvalue="Maven.Inventory [exec:java]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductTestMockito" />
+        <item itemvalue="JUnit.InventoryServiceTestMockito" />
+        <item itemvalue="JUnit.InventoryRepositoryTestMockito" />
         <item itemvalue="JUnit.InventoryTest" />
         <item itemvalue="JUnit.InventoryServiceTest" />
-        <item itemvalue="JUnit.InventoryServiceTest.shouldAddValidInHousePart" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +274,7 @@
       <workItem from="1713367410579" duration="22000" />
       <workItem from="1713367442141" duration="5126000" />
       <workItem from="1713511111078" duration="1898000" />
+      <workItem from="1715709365365" duration="220000" />
     </task>
     <servers />
   </component>

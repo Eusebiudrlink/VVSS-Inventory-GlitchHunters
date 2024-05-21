@@ -1,11 +1,11 @@
 
-ê
-java:S2095Ç"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(˘ªù˝8ø»Ã÷Í1J$57c9a700-d792-4ad4-9f43-7dc644a16a92
 è
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(„»à¶8æ»Ã÷Í1J$77b30209-ee9d-4d91-966e-fcdbdbff7831
-É	java:S125"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8¿Œº˜„1J$451b17cc-79fa-4be9-823a-83771c7a16ef
+java:S2095!"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(„»à¶8æ»Ã÷Í1J$cb630057-bf08-4255-b881-4930d0e7cc8a
+ê
+java:S2095à"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(˘ªù˝8ø»Ã÷Í1J$154c60d3-0a1c-4dcf-8434-f3499ceb50c7
+É	java:S125"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8¿Œº˜„1J$a1254001-ef04-4ae4-872a-c037fe8c67ee
 á
-java:S2147%"DCombine this catch with the one at line 35, which has the same body.(Ô≠£ƒ8¬Œº˜„1J$1ae27d6f-2605-408a-85e5-f7700489ceaf
-É	java:S125J"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8≈Œº˜„1J$1d6a0da8-a806-4f1f-b75e-720c9e75af72
-É	java:S125z"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8 Œº˜„1J$a1f47975-ac6f-4e92-a034-4d9c86892bf0
-s	java:S106Ñ"+Replace this use of System.out by a logger.(—£±‘˙ˇˇˇˇ8ÃŒº˜„1J$89f6f604-aaff-4557-9930-d12e85296000
+java:S2147+"DCombine this catch with the one at line 41, which has the same body.(Ô≠£ƒ8¬Œº˜„1J$4044eb15-5131-47fa-86bf-637a0fff3344
+É	java:S125P"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8≈Œº˜„1J$21e4344b-3115-4635-99d2-41b7af7bd662
+Ñ	java:S125Ä"<This block of commented-out lines of code should be removed.(ß®÷ø˙ˇˇˇˇ8 Œº˜„1J$304300de-d4aa-4b66-b970-8ce08444c217
+s	java:S106ä"+Replace this use of System.out by a logger.(—£±‘˙ˇˇˇˇ8ÃŒº˜„1J$3564d5cf-6219-49a0-8b15-571bffc71b7c

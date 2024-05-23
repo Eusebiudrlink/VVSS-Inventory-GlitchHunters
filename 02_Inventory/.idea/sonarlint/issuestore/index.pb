@@ -23,12 +23,8 @@ i
 0src/test/java/inventory/model/InventoryTest.java,1\7\1727e72bacda923720f502e981a8b45612dcd055
 p
 @src/test/java/inventory/service/InventoryServiceTestMockito.java,0\c\0cd73b792d7345ebdd8534188e85cc93a68e5b86
-z
-Jsrc/test/java/inventory/repository/InventoryRepositoryIntegrationTest.java,5\b\5b202b8ea9e1e9c9337f2bfffc449ba27c56d09d
 v
 Fsrc/test/java/inventory/repository/InventoryRepositoryTestMockito.java,6\7\671974481e4da3f63e94730b29363cf6e70c31c8
-w
-Gsrc/test/java/inventory/repository/InventoryServiceIntegrationTest.java,e\f\ef85d1a34ab64a8084a4d0bfc5caeca459e150eb
 t
 Dsrc/test/java/inventory/service/InventoryServiceIntegrationTest.java,7\5\756e249fbc87b512d348c911bc28225765cae904
 w

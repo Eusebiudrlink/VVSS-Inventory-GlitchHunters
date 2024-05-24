@@ -29,3 +29,7 @@ t
 Dsrc/test/java/inventory/service/InventoryServiceIntegrationTest.java,7\5\756e249fbc87b512d348c911bc28225765cae904
 w
 Gsrc/test/java/inventory/service/InventoryServiceE2EIntegrationTest.java,3\5\35bbb8e5881a342b3f91a7f3aae5cc7f6f82fb2f
+e
+5src/test/java/inventory/model/ProductTestMockito.java,4\a\4a1ef73a11be620ef8dc39fa64fbe83ed10fbb75
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

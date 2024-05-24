@@ -126,6 +126,8 @@
         <version>2.22.1</version>
         <configuration>
           <argLine>--add-opens inventory/inventory.service=ALL-UNNAMED</argLine>
+          <argLine>--add-opens inventory/inventory.repository=ALL-UNNAMED</argLine>
+          <argLine>--add-opens inventory/inventory.model=ALL-UNNAMED</argLine>
         </configuration>
       </plugin>
       <plugin>

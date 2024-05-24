@@ -7,6 +7,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
@@ -53,5 +54,14 @@ public class InventoryServiceIntegrationTest {
 
     @Test
     void testDeleteProduct() {
+        ArgumentCaptor<Product> valueCapture = ArgumentCaptor.forClass(Product.class);
+        doNothing().when(inventory).removeProduct(valueCapture.capture());
+
+        inventoryService.addProduct("Test Product", 100.0, 10, 5, 50, FXCollections.observableArrayList());
+        ObservableList<Product> products = inventoryService.getAllProducts();
+        assertEquals(1, products.size());
+        inventoryService.deleteProduct(products.get(0));
+
+        verify(inventory).removeProduct(product);
     }
 }

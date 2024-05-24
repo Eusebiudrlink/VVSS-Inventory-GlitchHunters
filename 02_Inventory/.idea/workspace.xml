@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cd73b792d7345ebdd8534188e85cc93a68e5b86" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cd73b792d7345ebdd8534188e85cc93a68e5b86" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35bbb8e5881a342b3f91a7f3aae5cc7f6f82fb2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35bbb8e5881a342b3f91a7f3aae5cc7f6f82fb2f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/671974481e4da3f63e94730b29363cf6e70c31c8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/671974481e4da3f63e94730b29363cf6e70c31c8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/756e249fbc87b512d348c911bc28225765cae904" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/756e249fbc87b512d348c911bc28225765cae904" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/model/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/model/InventoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/repository/InventoryRepositoryTestMockito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/repository/InventoryRepositoryTestMockito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceE2EIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceE2EIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceTestMockito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceTestMockito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/repository/InventoryRepositoryTestMockito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/repository/InventoryRepositoryTestMockito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceE2EIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceE2EIntegrationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceTestMockito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inventory/service/InventoryServiceTestMockito.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +57,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.All in Inventory.executor": "Run",
     "JUnit.InventoryServiceE2EIntegrationTest.executor": "Run",
     "JUnit.InventoryServiceE2EIntegrationTest.testAddProduct.executor": "Run",
     "JUnit.InventoryServiceIntegrationTest.testAddProduct.executor": "Run",
@@ -124,7 +114,19 @@
       <recent name="inventory.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in Inventory">
+  <component name="RunManager" selected="JUnit.All in Inventory">
+    <configuration name="All in Inventory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inventory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryServiceE2EIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <extension name="coverage">
@@ -153,22 +155,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="inventory.service" />
       <option name="MAIN_CLASS_NAME" value="inventory.service.InventoryServiceE2EIntegrationTest" />
-      <option name="METHOD_NAME" value="testAddProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InventoryServiceIntegrationTest.testAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inventory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inventory.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inventory.service" />
-      <option name="MAIN_CLASS_NAME" value="inventory.service.InventoryServiceIntegrationTest" />
       <option name="METHOD_NAME" value="testAddProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -235,20 +221,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in Inventory" />
       <item itemvalue="JUnit.java in Inventory" />
       <item itemvalue="JUnit.InventoryServiceE2EIntegrationTest" />
       <item itemvalue="JUnit.InventoryServiceE2EIntegrationTest.testAddProduct" />
-      <item itemvalue="JUnit.InventoryServiceIntegrationTest.testAddProduct" />
       <item itemvalue="JUnit.InventoryServiceIntegrationTest.testDeleteProduct" />
       <item itemvalue="Maven.Inventory [exec:java]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Inventory" />
+        <item itemvalue="JUnit.InventoryServiceIntegrationTest.testDeleteProduct" />
         <item itemvalue="JUnit.java in Inventory" />
         <item itemvalue="JUnit.InventoryServiceE2EIntegrationTest" />
         <item itemvalue="JUnit.InventoryServiceE2EIntegrationTest.testAddProduct" />
-        <item itemvalue="JUnit.InventoryServiceIntegrationTest.testAddProduct" />
-        <item itemvalue="JUnit.InventoryServiceIntegrationTest.testDeleteProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +281,7 @@
       <workItem from="1713511111078" duration="1898000" />
       <workItem from="1715709365365" duration="220000" />
       <workItem from="1716494133140" duration="2616000" />
-      <workItem from="1716543989669" duration="582000" />
+      <workItem from="1716543989669" duration="1141000" />
     </task>
     <servers />
   </component>
